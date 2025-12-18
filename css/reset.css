@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+&::-webkit-scrollbar {
+  width: 9px;
+}
+
+&::-webkit-scrollbar-thumb {
+  background-color: rgba(165, 49, 180, 1);
+  border-radius: 5px;
+}
+
+&::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(165, 49, 180, 0.9);
+}
+
+&::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 1);
+}
